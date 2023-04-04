@@ -1,0 +1,28 @@
+\chapter*{Abstract} % no number
+\label{abtract}
+
+\addcontentsline{toc}{chapter}{Abstract} % add to index
+Complex networks are amongst the most studied branches in computer science, not only because of the vastity of the topic itself, but also because of their strong connection with other disciplines such as economics, biology, politic sciences and many others. Modern-day social networks enhance these correlations even more, thanks to the fact that they are stable in every human's daily life whether it's related to work, news or simple leisure activities. This work is focused on social networks Influence Maximization (IM), a widespread algorithmic problem that has been studied frequently as social networks have been expanding for years, where the goal is to find the optimal seed set K of a network that can maximize the spread of an influence. This has been studied under several points of view in the recent years since it has a big range of practical applications not only in computer science (i.e., fake news epidemics), but also in Economics (Viral Marketing), Sociology and more. 
+Social networks are modeled through mathematic graphs, an easy and functional structure where nodes represent the users and edges represent the interactions happening between two users, for example a message.
+\\
+\\
+However a limitation of classical Influence Maximization Frameworks is that they are often based on some assumptions, like modeling social networks through static graphs. Obviously, every spreading process occurs over time, and as the time progresses social networks do evolve quite drastically as shown in studies by Marlyne Meijerink-Bosman et. al. Temporal Graphs are introduced, to easily assign each edge a timestamp to model a realistic dynamic social network interaction. A temporal graph can be interpreted as a set of static graphs that model the evolution of the network over time, with nodes joining, leaving and interacting with each other. Another limitation of many IM works is the general purpose of limiting the seed set size, but not restricting the effective choice of the single nodes; it is not realistic to model an influence maximization framework assuming that nodes have equal seeding cost. Just by considering viral instagram marketing, a more influential user requires more money to make an endorsment of a product, compared to people with less network presence. A function that models the node cost dynamically is required. On top of that, optimization algorithms proposed in existing IM studies have very large computational costs, which makes them not suitable to big scale networks, like today's social networks are.
+\\
+\\
+This work aims at presenting a new, more realistic influence maximization framework since generally proposed solutions for IM are optimal but can’t really be applied in realistic scenarios since there are many factors to take into consideration, such as restricted freedom on the seed set choice. A suitable model that takes into account all of the above is proposed and different seeding strategies are built after extracting the most relevant features from different temporal network models. The results are obtained by testing each strategy on different realistic networks and then discussed and contextualized.
+
+The work done is summarized by these points below:
+\begin{itemize}
+\item Research of the existing studies regarding the subject
+\item Analyzing the problem from a more realistic perspective with the appropriate constraints
+\item Coding python scripts to create the base structure, the simulator and the solution algorithms
+\item Analyzing different solution ideas for the different network models 
+\item Testing those solutions on realistic networks and comparing the performances
+\end{itemize}
+
+
+
+
+
+
+
